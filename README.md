@@ -1,3 +1,17 @@
+## Fork
+
+This purpose of this fork is to hide the console window that appears when running a game with the [MO2-linux-installer](https://github.com/rockerbacon/modorganizer2-linux-installer) and to be able to enter a launch option in Steam to bypass the MO2 window and directly land into the game like we can do on Windows.
+
+To use it :
+
+- Clone [this branch](https://github.com/Zouizoui78/modorganizer2-linux-installer/tree/both_changes).
+- Run `make` in the `steam-redirector` directory to compile the redirector program.
+- Rename the resulting `main.exe` file to whatever the file launched by Steam for your game is called. For example for Skyrim SE it's `SkyrimSELauncher.exe`.
+- Backup the file currently launched by Steam when you launch the game.
+- Move the renamed file to your game's installation directory. Again using Skyrim SE as as example it's `/path/to/SteamLibrary/steamapps/common/Skyrim Special Edition`.
+
+# Original readme
+
 ## Introduction
 
 This project aims to make modding and playing Bethesda games on Linux as easy as possible. It does that by providing installers which automatically setup a working experience for the user.
