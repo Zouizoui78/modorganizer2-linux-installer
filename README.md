@@ -6,9 +6,7 @@ To use it :
 
 - Clone [this branch](https://github.com/Zouizoui78/modorganizer2-linux-installer/tree/both_changes).
 - Run `make` in the `steam-redirector` directory to compile the redirector program.
-- Rename the resulting `main.exe` file to whatever the file launched by Steam for your game is called. For example for Skyrim SE it's `SkyrimSELauncher.exe`.
-- Backup the file currently launched by Steam when you launch the game.
-- Move the renamed file to your game's installation directory. Again using Skyrim SE as as example it's `/path/to/SteamLibrary/steamapps/common/Skyrim Special Edition`.
+- Run install.sh
 
 # Original readme
 
